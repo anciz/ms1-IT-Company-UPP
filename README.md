@@ -25,16 +25,22 @@ Kada ste izabrali projekat i importovali ga, verovatno cete imate neke errore. R
   
   </details> <br/>
   
-  
-  ##  Pokretanje eksterne Django aplikacije
+  <details>
+   <summary> Pokretanje eksterne Django aplikacije </summary> <br/>
+
   
   Bonita app comunicate with external Django app. You need to start that app locally at port 8000 ie. your beginning URL path of the external app should start as http://127.0.0.1:8000
   
 eg. we use exactly this URL for payment http://127.0.0.1:8000/payment/payment/
+ </details> <br/>
+ <details>
+   <summary> Flow sa kredencijalima Edukacija </summary> <br/>
+   </details> <br/>
+    <details>
+   <summary> Flow sa kredencijalima Oprema  </summary> <br/>
+   </details> <br/>
+    <details>
+   <summary> Flow sa kredencijalima Posao  </summary> <br/>
+   </details> <br/>
 
-  ##  Flow sa kredencijalima Edukacija 
-  
-  ##  Flow sa kredencijalima Oprema 
-  
-  ##  Flow sa kredencijalima Posao 
   
