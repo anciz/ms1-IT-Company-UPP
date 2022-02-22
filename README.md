@@ -4,11 +4,24 @@
 ## Meni
 
 <details>
-  <summary> Kontrolisanje verzija </summary> <br/>
+  <summary> Pokretanje Bonita aplikacije </summary> <br/>
   
-Da bi preuzeli aktivnu verziju projekta, potrebno je da u sekciji **File** izaberete opciju **Import** a potom **BOS archive** i da nadjete **.bos** fajl na vasem racunaru koji predstavlja ovaj projekat. 
+Da bi pokrenuli aktivnu verziju projekta, potrebno je da u sekciji **File** izaberete opciju **Import** a potom **BOS archive** i da nadjete **.bos** fajl na vasem racunaru koji predstavlja ovaj projekat. 
   
-Kada ste izabrali projekat i importovali ga, verovatno cete imate neke errore. Razlog tome moze da bude vise razloga. Prvo sto bi trebalo uraditi je da u sekciji **Development** izabere opciju **Business Data Model** a onda i **Define**. Tada se otvara deo sa modelima nase baze, prvo je potrebno to deployovati. Naravno, nakog toga probajte kompletno aplikaciju da deplojujete. Nakon toga i da refresujete projekat. Takodje Process diagrams u sebi zadrzi procese, ako neki od njih ima error, desni klik i validate. Sada bi trebalo da je sve uredu.
+Kada ste izabrali projekat i importovali ga, verovatno cete imate neke errore. Razlog tome moze da bude vise razloga. Prvo sto bi trebalo uraditi je da odradite "Refresh" projekta 
+
+  ![image](https://user-images.githubusercontent.com/49925421/155209125-8eb0045a-783a-4530-95e0-182b20c7139d.png)
+
+  nakon toga "Deploy"
+  
+  ![image](https://user-images.githubusercontent.com/49925421/155209347-36088727-29dc-4ab3-8257-bcb8f4c3e3b5.png)
+
+  i nakon toga "Validate"
+
+![image](https://user-images.githubusercontent.com/49925421/155209439-b9bc3e2c-f913-4f7c-b52d-9247711aada9.png)
+
+  
+  u sekciji **Development** izabere opciju **Business Data Model** a onda i **Define**. Tada se otvara deo sa modelima nase baze, prvo je potrebno to deployovati. Naravno, nakog toga probajte kompletno aplikaciju da deplojujete. Nakon toga i da refresujete projekat. Takodje Process diagrams u sebi zadrzi procese, ako neki od njih ima error, desni klik i validate. Sada bi trebalo da je sve uredu.
   
   
   </details> <br/>
