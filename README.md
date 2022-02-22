@@ -57,14 +57,29 @@ eg. we use exactly this URL for payment http://127.0.0.1:8000/payment/payment/
     <details>
    <summary> Flow sa kredencijalima Oprema  </summary> <br/>
   
-    - Ulogujemo se kao username: goran.hraric password: bpm
+ - Ulogujemo se kao zaposleni u HR sluzbi. Kredencijali: username: goran.hraric password: bpm
   
-    - Startujemo proces Nabavke, nakon toga dodamo stavke i submitujemo zahtev 
+ - Startujemo proces Nabavke, nakon toga dodamo stavke i submitujemo zahtev 
   
-    - Ulogujemo se kao direktni nadredjeni tj. sef zaposlenog username: zorica.shraric password: bpm
+ - Ulogujemo se kao direktni nadredjeni tj. sef zaposlenog. Kredencijali: username: zorica.shraric password: bpm
   
-    - Direktni nadredjeni ima mogucnost da odobri ili ne odobri zahtev, ukoliko 
+ - Direktni nadredjeni ima mogucnost da odobri ili ne odobri zahtev, ukoliko odbije pristize mu proces u kom unosi obrazlozenje i nakon toga se obavestava zaposleni i proces terminira, ukoliko je preliminarno odobrio zahtev on unosi i maksimalni budzet za nabavku.
   
+ - Ulogujemo se kao sef sluzbe nabavke. Kredencijali: username: marko.snabavic password: bpm
+  
+ - Sef sluzbe nabavke pregleda i prosledjuje nabavke. 
+
+ - Ulogujemo se kao zaposleni u sluzbi nabavke. Kredencijali: username: drago.nabavic password: bpm
+ 
+ - Zaposleni u sluzbi nabavke analizira zahtev i odredjuje da li trazena oprema/materijal postoji u lokalnom magacinu u dovoljnoj kolicini, i po potrebi kontaktira i trazi ponude od dobavljaca.
+  
+ - Ulogujemo se kao dobavljac.  Kredencijali: username: boban.dobavljacic password: bpm
+  
+ - Dobavljac unosi ponude i jedinicnu cenu za ponude dobavljac pregleda pristigle ponude i salje sefu nabavke na odobrenje. (Radi testiranja mozemo smanjiti time boundary na minute)
+
+- 
+ 
+ - Kada istekne vreme(5 dana) 
    </details> <br/>
     <details>
    <summary> Flow sa kredencijalima Posao  </summary> <br/>
