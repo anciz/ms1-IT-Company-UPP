@@ -31,6 +31,8 @@ Kada ste izabrali projekat i importovali ga, verovatno cete imate neke errore. R
   
   Bonita app comunicate with external Django app. You need to start that app locally at port 8000 ie. your beginning URL path of the external app should start as http://127.0.0.1:8000
   
+  Before you start Django app install all from requirements.txt
+  
   To start Django app:
   
   1. cd to /uppPaymentApp
