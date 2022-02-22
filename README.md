@@ -111,7 +111,10 @@ Kada ste izabrali projekat i importovali ga, verovatno cete imate neke errore. R
 - Ulogujemo se kao direktni nadredjeni tj. sef zaposlenog. Kredencijali: username: zorica.shraric password: bpm.
   
 - Sef zaposlenog subpotpisuje placanje 
-  
+
+- Ulogujemo se kao zaposleni u HR sluzbi. Kredencijali: username: goran.hraric password: bpm
+
+- Zaposleni prima robu 
   
    </details> <br/>
     <details>
