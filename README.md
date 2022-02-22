@@ -84,8 +84,26 @@ eg. we use exactly this URL for payment http://127.0.0.1:8000/payment/payment/
  - Ulogujemo se kao sef sluzbe nabavke. Kredencijali: username: marko.snabavic password: bpm
 
  - Sef sluzbe nabavke pregleda ponudu i potencijalno je odobrava.
+ 
+ - Ukoliko je ponuda bila skuplja za 15% zatrazena je dodatna saglasnost od sefa zaposlenog koji je trazio opremu. To mozemo proveriti tako sto se ulogujemo se kao direktni nadredjeni tj. sef zaposlenog. Kredencijali: username: zorica.shraric password: bpm
   
- - Ukoliko je o
+ - Ukoliko je ponuda bila za vevi procenat skuplja od ocekivane cene zaposleni i njegov sef su obavesteni da nabavka nece biti obavljena. To mozemo proveriti ulogujemo se kao direktni nadredjeni tj. sef zaposlenog. Kredencijali: username: zorica.shraric password: bpm. I tako sto se ulogujemo se kao zaposleni u HR sluzbi. Kredencijali: username: goran.hraric password: bpm 
+  
+- Ukoliko je nabavka odobrena pokrece se servis placanja 
+  
+- Ulogujemo se kao zaposleni u sluzbi nabavke. Kredencijali: username: drago.nabavic password: bpm
+  
+- Zaposleni u sluzbi nabavke kreira dokument porudzbenice
+  
+- Ulogujemo se kao sef sluzbe nabavke. Kredencijali: username: marko.snabavic password: bpm
+  
+- Sef sluzbe nabavke subpotpisuje placanje 
+  
+- Ulogujemo se kao direktni nadredjeni tj. sef zaposlenog. Kredencijali: username: zorica.shraric password: bpm.
+  
+- Sef zaposlenog subpotpisuje placanje 
+  
+  
    </details> <br/>
     <details>
    <summary> Flow sa kredencijalima Posao  </summary> <br/>
