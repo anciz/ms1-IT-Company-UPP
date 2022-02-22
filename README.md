@@ -33,11 +33,38 @@ Kada ste izabrali projekat i importovali ga, verovatno cete imate neke errore. R
   
 eg. we use exactly this URL for payment http://127.0.0.1:8000/payment/payment/
  </details> <br/>
+ 
+   <details>
+   <summary> Pokretanje Fake SMTP Servera </summary> <br/>
+  
+- Download link: http://nilhcem.com/FakeSMTP/download.html
+  
+- Unesite port 2525 i izaberite folder u kom zelite da cuvate mailove
+  
+- Nakon toga idite na "Server start"
+  
+![image](https://user-images.githubusercontent.com/49925421/155211546-826b27f6-5413-41e9-9035-658e72fa2770.png)
+
+  
+ 
+ </details> <br/>
+ 
+ 
  <details>
    <summary> Flow sa kredencijalima Edukacija </summary> <br/>
+  
    </details> <br/>
     <details>
    <summary> Flow sa kredencijalima Oprema  </summary> <br/>
+  
+    - Ulogujemo se kao username: goran.hraric password: bpm
+  
+    - Startujemo proces Nabavke, nakon toga dodamo stavke i submitujemo zahtev 
+  
+    - Ulogujemo se kao direktni nadredjeni tj. sef zaposlenog username: zorica.shraric password: bpm
+  
+    - Direktni nadredjeni ima mogucnost da odobri ili ne odobri zahtev, ukoliko 
+  
    </details> <br/>
     <details>
    <summary> Flow sa kredencijalima Posao  </summary> <br/>
