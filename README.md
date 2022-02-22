@@ -75,11 +75,17 @@ eg. we use exactly this URL for payment http://127.0.0.1:8000/payment/payment/
   
  - Ulogujemo se kao dobavljac.  Kredencijali: username: boban.dobavljacic password: bpm
   
- - Dobavljac unosi ponude i jedinicnu cenu za ponude dobavljac pregleda pristigle ponude i salje sefu nabavke na odobrenje. (Radi testiranja mozemo smanjiti time boundary na minute)
+ - Dobavljac unosi ponude i jedinicnu cenu za ponude 
 
-- 
- 
- - Kada istekne vreme(5 dana) 
+ - Kada istekne vreme(5 dana) ulogujemo se kao zaposleni u sluzbi nabavke. Kredencijali: username: drago.nabavic password: bpm (Radi testiranja mozemo smanjiti time boundary na minute)
+  
+ - Zaposleni u sluzbi nabavke pregleda pristigle ponude i salje sefu nabavke na odobrenje najbolju ponudu.
+  
+ - Ulogujemo se kao sef sluzbe nabavke. Kredencijali: username: marko.snabavic password: bpm
+
+ - Sef sluzbe nabavke pregleda ponudu i potencijalno je odobrava.
+  
+ - Ukoliko je o
    </details> <br/>
     <details>
    <summary> Flow sa kredencijalima Posao  </summary> <br/>
