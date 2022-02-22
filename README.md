@@ -20,8 +20,7 @@ Kada ste izabrali projekat i importovali ga, verovatno cete imate neke errore. R
 
 ![image](https://user-images.githubusercontent.com/49925421/155209439-b9bc3e2c-f913-4f7c-b52d-9247711aada9.png)
 
-  
-  u sekciji **Development** izabere opciju **Business Data Model** a onda i **Define**. Tada se otvara deo sa modelima nase baze, prvo je potrebno to deployovati. Naravno, nakog toga probajte kompletno aplikaciju da deplojujete. Nakon toga i da refresujete projekat. Takodje Process diagrams u sebi zadrzi procese, ako neki od njih ima error, desni klik i validate. Sada bi trebalo da je sve uredu.
+ Sada bi trebalo da je sve uredu.
   
   
   </details> <br/>
