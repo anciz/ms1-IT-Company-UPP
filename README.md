@@ -119,6 +119,38 @@ Kada ste izabrali projekat i importovali ga, verovatno cete imate neke errore. R
    </details> <br/>
     <details>
    <summary> Flow sa kredencijalima Posao  </summary> <br/>
+  - Lozinka za svakog korisnika je nepromenjena, odnosno bpm.
+- Kandidati su: <b>ivana.kandidatic</b>, <b>mima.kandidatic</b>.
+- Ulogujemo se kao kandidat, npr. <b>ivana.kandidatic</b> i saljemo zahtev.
+- Ulogujemo se kao HR zaposleni, odnosno <b>marko.hraric</b>. Inicijalno se task za analizu i odlucivanje o prihvatanju zahteva za posao dodeljuje marko.hraric. Nakon sto istekne prijava, task se dodeljuje HR zaposlenom, odnosno <b>goran.hraric</b>.
+- Moguce je imati uvid u statistiku gde je potrebno potvrditi ukoliko zelimo da je pogledamo. Ako odbijemo, pregled statistike nam nece biti omogucen.
+
+   *Slucaj da je zahtev odbijen*
+  - Ulogujemo se kao sef HR sluzbe, <b>zorica.shraric</b> gde mozemo da prihvatimo odbijanje zahteva. Ukoliko prihvatimo odbijanje zahteva, ivana.kandidatic se obavestava da vise nije u krugu za zaposlenje i proces se terminira. Ukoliko se ne prihvati odbijanje, proces se nastavlja.
+
+   *Slucaj da zahtev nije odbijen*
+  - Ukoliko je prijava prihvacena, ulogujemo se kao HR sef, <b>zorica.shraric</b>.
+  - Prilikom izbora intervjuera, bira se jedan od HR zaposlenih (goran.hraric, marko.hraric), senior (dragan.protsenioric, savo.protsenioric), osoba koja poznaje bar 1 jezi (angela.intervjuic, bergela.sintervjuic).
+  - Ulogujemo se kao npr. <b>goran.hraric</b> i izaberemo 3 termina za intervju.
+  - Ulogujemo se kao npr. <b>dragan.protsenioric</b> i izaberemo 3 termina za intervju.
+  - Ulogujemo se kao npr. <b>angela.intervjuic</b> i izaberemo 3 termina za intervju.
+
+   *Slucaj da kandidat prihvati neki od termina*
+  - Ulogujemo se kao kandidat <b>ivana.kandidatic</b> i izaberemo 1 od ponudjenih termina.
+  - Ulogujemo se kao <b>goran.hraric</b> i ocenimo kandidata.
+  - Ulogujemo se kao <b>dragan.protsenioric</b> i ocenimo kandidata.
+  - Ulogujemo se kao <b>angela.intervjuic</b> i ocenimo kandidata.
+
+   *Slucaj da kandidat ne prodje eliminaciju*
+  - Proces se zavrsava.
+
+   *Slucaj da kandidat prodje eliminaciju*
+  - Ulogujemo kao sef HR sluzbe, <b>zorica.shraric</b> i donosimo konacnu odluku o zaposlenju.
+
+   *Slucaj da kandidat ne prihvati neki od termina*
+  - Ukoliko zeli da odustane od prijave, potrebno je da izaberemo 0 u izboru termina i time se obradjivac zahteva, marko.hraric obavestava o odustanku.
+
+
    </details> <br/>
 
   
