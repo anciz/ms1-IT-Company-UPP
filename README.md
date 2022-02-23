@@ -1,7 +1,10 @@
-# IT-Company-UPP
+# IT-Firma
 
 
 ## Meni
+
+
+### Pokretanje 
 
 <details>
   <summary> Pokretanje Bonita aplikacije </summary> <br/>
@@ -23,7 +26,7 @@ Kada ste izabrali projekat i importovali ga, verovatno cete imate neke errore. R
  Sada bi trebalo da je sve uredu.
   
   
-  </details> <br/>
+  </details>
   
   <details>
    <summary> Pokretanje eksterne Django aplikacije </summary> <br/>
@@ -41,9 +44,9 @@ Kada ste izabrali projekat i importovali ga, verovatno cete imate neke errore. R
   
   
 
- </details> <br/>
+ </details> 
  
-   <details>
+ <details>
    <summary> Pokretanje Fake SMTP Servera </summary> <br/>
   
 - Download link: http://nilhcem.com/FakeSMTP/download.html
@@ -56,7 +59,20 @@ Kada ste izabrali projekat i importovali ga, verovatno cete imate neke errore. R
 
   
  
- </details> <br/>
+ </details> 
+ 
+ <br/>
+ 
+ ### Tokovi sa kredencijalima
+ 
+ <details> 
+  <summary> Nomenklatura </summary> <br/>
+  
+Kako bi se sam proces lakse koristio i razumeo, ukrakto sledi objasnjenje koriscenje nomenklature clanove organizacije, njihovih imena i prezimena kao i uloga u organizaciji na osnovu istih.
+
+Ime svakog clana zaposlenog je totalno proizvoljno, ono sto je bitno jeste prezime. Iz samog prezimena se moze automatski zakljuciti i uloga koju taj zaposleni obavlja u organizaciji. Npr. Ana Finansic je neko ko pripada finansijama, sef finansija i kao svaki sef u organizaciji kao prvo slovo prezimena ima slovo S, pa tako i sef finansija Vladislav Sfinansic ima tako prezime. Neki od primera su jos i agent smestaja Aco Asmestic ili sef hr sluzbe Zorica Shraric itd itd.
+  
+</details>
  
  
  <details>
@@ -88,8 +104,9 @@ Kada ste izabrali projekat i importovali ga, verovatno cete imate neke errore. R
   -  Ulogujemo se kao <b>marko.hraric</b> i potvrdimo rezervaciju, a potom edukaciju.
 
   
-   </details> <br/>
-    <details>
+   </details>
+   
+ <details>
    <summary> Flow sa kredencijalima Oprema  </summary> <br/>
   
  - Ulogujemo se kao zaposleni u HR sluzbi. Kredencijali: username: goran.hraric password: bpm
@@ -142,8 +159,10 @@ Kada ste izabrali projekat i importovali ga, verovatno cete imate neke errore. R
 
 - Zaposleni prima robu 
   
-   </details> <br/>
-    <details>
+ </details>
+   
+   
+ <details>
    <summary> Flow sa kredencijalima Posao  </summary> <br/>
   - Lozinka za svakog korisnika je nepromenjena, odnosno bpm.
 - Kandidati su: <b>ivana.kandidatic</b>, <b>mima.kandidatic</b>.
