@@ -70,7 +70,7 @@ Kada ste izabrali projekat i importovali ga, verovatno cete imate neke errore. R
   
 Kako bi se sam proces lakse koristio i razumeo, ukrakto sledi objasnjenje koriscenje nomenklature clanove organizacije, njihovih imena i prezimena kao i uloga u organizaciji na osnovu istih.
 
-Ime svakog clana zaposlenog je totalno proizvoljno, ono sto je bitno jeste prezime. Iz samog prezimena se moze automatski zakljuciti i uloga koju taj zaposleni obavlja u organizaciji. Npr. Ana Finansic je neko ko pripada finansijama, sef finansija i kao svaki sef u organizaciji kao prvo slovo prezimena ima slovo S, pa tako i sef finansija Vladislav Sfinansic ima tako prezime. Neki od primera su jos i agent smestaja Aco Asmestic ili sef hr sluzbe Zorica Shraric itd itd.
+Ime svakog clana zaposlenog je totalno proizvoljno, ono sto je bitno jeste prezime. Iz samog prezimena se moze automatski zakljuciti i uloga koju taj zaposleni obavlja u organizaciji. Npr. Ana **Finansic** je neko ko pripada finansijama. Sa druge strane, sef finansija, kao i svaki sef u organizaciji kao prvo slovo prezimena ima slovo **S**, pa tako i sef finansija Vladislav **Sfinansic** ima tako prezime. Neki od primera su jos i agent smestaja Aco **Asmestic** ili sef hr sluzbe Zorica **Shraric** itd itd.
   
 </details>
  
