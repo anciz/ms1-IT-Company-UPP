@@ -61,6 +61,32 @@ Kada ste izabrali projekat i importovali ga, verovatno cete imate neke errore. R
  
  <details>
    <summary> Flow sa kredencijalima Edukacija </summary> <br/>
+  - Lozinka za svakog korisnika je nepromenjena, odnosno bpm.
+
+  *****Slucaj da izaberemo da je kurs online*****
+  - Ulogujemo se kao zaposleni <b>marko.hraric</b> i saljemo zahtev za edukaciju.
+  - Ulogujemo se kao direktni nadredjeni od marko.hraric, a to je <b>zorica.shraric</b> i vrsimo prihvatanje ili odbijanje zahteva.
+  - Ukoliko je odobrena edukacija, ulogujemo se kao sef finansija, <b>vladislav.sfinansic</b>. Vrsimo pregledanje zahteva i izbor kome ce se u opstoj sluzbi proslediti taj zahtev. Moguce opcije su zaposleni u opstoj sluzbi, <b>katja.opstic</b> ili <b>nadja.opstic</b>. Izaberemo npr. katja.opstic.
+  - Ulogujemo se kao <b>katja.opstic</b>, vrsimo analizu zahteva i izvrsavanje placanja kursa. Tada se marko.hraric obavestava da je kurs uplacen.
+  - Ulogujemo se kao <b>marko.hraric</b> i potvrdimo edukaciju.
+
+   *****Slucaj da izaberemo da je kurs uzivo*****
+  - Ulogujemo se kao zaposleni <b>marko.hraric</b> i saljemo zahtev za edukaciju.
+  - Ulogujemo se kao direktni nadredjeni od marko.hraric, a to je <b>zorica.shraric</b> i vrsimo prihvatanje ili odbijanje zahteva. Ukoliko smo prihvatili zahtev, navodimo dozvoljeni budzet.
+  - Ukoliko je odobrena edukacija, ulogujemo se kao sef finansija, <b>vladislav.sfinansic</b>. Vrsimo pregledanje zahteva i izbor kome ce se u opstoj sluzbi proslediti taj zahtev. Moguce opcije su zaposleni u opstoj sluzbi, <b>katja.opstic</b> ili <b>nadja.opstic</b>. Izaberemo npr. katja.opstic.
+  - Ulogujemo se kao agent smestaja, odnosno <b>braco.asmestic</b> i biramo ponudu smestaja.
+  - Ulogujemo se kao agent prevoza, odnosno <b>danica.aprevozic</b> i biramo prevoz.
+
+   *Ukoliko su opcije u okviru budzeta*
+  - Uogujemo se kao <b>marko.hraric</b> i biramo jednu od njih.
+  - Ulogujemo se kao clan opste sluzbe <b>katja.opstic</b> i vrsimo placanje. Zatim se marko.hraric obavestava o izvrsenoj rezervaciji.
+  - Ulogujemo se kao <b>marko.hraric</b> i potvrdimo rezervaciju, a potom edukaciju.
+
+   *Ukoliko opcije nisu u okviru budzeta*
+  -  Ulogujemo se kao sef zaposlenog, <b>zorica.shraric</b> i vrsimo prihvatanje ili odbijanje.
+  -  Ulogujemo se kao clan opste sluzbe <b>katja.opstic</b> i vrsimo placanje. Zatim se marko.hraric obavestava o izvrsenoj rezervaciji.
+  -  Ulogujemo se kao <b>marko.hraric</b> i potvrdimo rezervaciju, a potom edukaciju.
+
   
    </details> <br/>
     <details>
